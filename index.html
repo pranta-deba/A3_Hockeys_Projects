@@ -27,6 +27,7 @@
                         clifford: '#da373d',
                         'primary-color': '#FF4240',
                         'gray-color': '#424247',
+                        'black-color': '#131318',
                     }
                 }
             }
@@ -98,6 +99,49 @@
                 </div>
             </div>
         </nav>
+        <!-- banner section - start -->
+        <div class="banner">
+            <div class="carousel w-full">
+                <!-- banner carousel slide 1 -->
+                <div id="slide1"
+                    class="carousel-item relative w-full h-[200px] md:h-[550px] bg-[url('Assets/Images/carousel1.png')] bg-no-repeat bg-cover bg-center">
+                    <div
+                        class="absolute bg-black-color text-white p-8 md:max-w-[560px] rounded-lg right-20 bottom-16 hidden md:flex md:flex-col">
+                        <h4 class="text-2xl font-extrabold">Meet all the heroes from the field</h4>
+                        <p class="text-base font-normal opacity-[60%]">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                    <div class="absolute flex justify-between bottom-4 left-4 space-x-2">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+                <!-- banner carousel slide 2 -->
+                <div id="slide2"
+                    class="carousel-item relative w-full h-[200px] md:h-[550px] bg-[url('Assets/Images/carousel2.jpg')] bg-no-repeat bg-cover bg-center">
+                    <div class="absolute flex justify-between bottom-4 left-4 space-x-2">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+                <!-- banner carousel slide 3 -->
+                <div id="slide3"
+                    class="carousel-item relative w-full h-[200px] md:h-[550px] bg-[url('Assets/Images/carousel3.jpg')] bg-no-repeat bg-cover bg-center">
+                    <div class="absolute flex justify-between bottom-4 left-4 space-x-2">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="bg-black-color text-white p-8 md:max-w-[560px] md:hidden flex flex-col">
+                <h4 class="text-2xl font-extrabold">Meet all the heroes from the field</h4>
+                <p class="text-base font-normal opacity-[60%]">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+        <!-- banner section - end -->
     </header>
     <!-- header section - end -->
 
